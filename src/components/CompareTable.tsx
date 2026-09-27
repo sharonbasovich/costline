@@ -41,8 +41,8 @@ export function CompareTable({ ids, onToggle }: Props) {
       <section className="panel compare-empty" id="compare">
         <h2>Head-to-head</h2>
         <p>
-          Tick <strong>compare</strong> on at least two city cards (or click
-          dots on the map) to line them up here.
+          Tick <strong>compare</strong> on at least two city cards to line
+          them up here.
         </p>
         {picker}
       </section>

@@ -6,12 +6,12 @@ CostLine
 
 ## Tagline
 
-Same degree, $4,400 apart — the real cost of being a student in Atlantic Canada, with every number cited.
+Same degree, $3,834 apart — the real cost of being a student in Atlantic Canada, with every number cited.
 
 ## Elevator / hook (first two sentences)
 
 A first year at Memorial University in St. John's costs about $18,400. The same
-year at Dalhousie in Halifax runs $22,800 — and neither school's website tells
+year at Dalhousie in Halifax runs $22,240 — and neither school's website tells
 you that in one place. CostLine maps the real cost of student life across 10
 Atlantic Canadian cities — every figure cited, every estimate labeled.
 
@@ -19,8 +19,8 @@ Atlantic Canadian cities — every figure cited, every estimate labeled.
 
 Atlantic Canada sells itself to students as "affordable" — but affordable
 *where*? A student choosing between Dalhousie in Halifax and Memorial in
-St. John's is really choosing between a $914 shared room and a $674 one —
-between a city with a 2.1% rental vacancy and one where the search is easier.
+St. John's is really choosing between a $914 shared room and a $674 one — and
+a dozen smaller trade-offs nobody puts side by side.
 That information exists, but it's scattered across CMHC tables, MPHEC PDFs and
 a dozen university "estimated costs" pages — each in a different format, none
 comparable. We wanted one honest map of what a student year actually costs
@@ -38,7 +38,7 @@ John, Moncton, Sackville, St. John's, Charlottetown).
 - **Honest numbers** — every figure carries a badge you can click: `CMHC A–D`
   survey grades, `Official` published figures, or `Estimate` (modeled, ±15%).
   No fake precision.
-- **Head-to-head** — tick "compare" on any cards or map dots to line cities up
+- **Head-to-head** — tick "compare" on any city cards to line cities up
   side by side, with a first-year-cost bar chart.
 - **Budget your year** — pick a city and campus, choose your housing, adjust
   groceries, personal spending, part-time income, summer earnings and family
@@ -64,8 +64,8 @@ without losing a feature.
 
 ## Accomplishments we're proud of
 
-- Ten cities, five data sources, every number labeled — no other student
-  budgeting tool shows its work like this.
+- Ten cities, five data sources, every number labeled — a level of sourcing
+  few student budgeting tools show.
 - The 8-month vs 12-month lease gap is surfaced as a first-class number,
   because that's the decision students actually face.
 - Recovered the entire app from a dead environment mid-hackathon and still
@@ -79,7 +79,8 @@ first — before the UI — forced every number to earn its place on the screen.
 ## What's next for CostLine
 
 Rent-alert tracking when CMHC's next survey drops, international-student
-tuition mode, OSAP/provincial-loan integration, and crowdsourced real-lease
+tuition mode, provincial student-aid integration (NS, NB, NL and PEI loan
+programs), and crowdsourced real-lease
 submissions to shrink the "Estimate" badges.
 
 ## Built with

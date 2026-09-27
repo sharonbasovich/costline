@@ -649,6 +649,12 @@ footer {
   font-size:.82rem;
 }
 @media (width<=640px) {
+  .badge-pop {
+    left:auto;
+    right:-.5rem;
+    transform:none;
+    width:min(15rem,78vw);
+  }
   .topbar {
     flex-wrap:wrap;
     padding:.6rem 1rem;

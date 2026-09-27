@@ -43,8 +43,8 @@ export const SOURCES: Record<SourceId, Source> = {
   },
   'transit-fares': {
     label:
-      'Published transit authority fare pages (Halifax Transit, Fredericton Transit, Codiac Transpo, Metrobus, T3 Transit)',
-    url: 'https://www.halifax.ca/transportation/halifax-transit/fares-tickets-passes',
+      'Published transit authority fare pages (Halifax Transit UPass, Fredericton Transit U-Pass, Codiac Transpo, Metrobus, T3 Transit)',
+    url: 'https://www.halifax.ca/transportation/halifax-transit/transit-programs-services/upass-program',
     date: 'checked Sep 2026',
   },
   'univ-col-estimates': {
@@ -104,9 +104,9 @@ export const CITIES: City[] = [
       },
       vacancyPct: { value: 2.1, quality: { kind: 'official' }, sourceId: CMHC },
     },
-    transitMonthly: { value: 90, quality: { kind: 'official' }, sourceId: TRANSIT },
+    transitMonthly: { value: 22.24, quality: { kind: 'official' }, sourceId: TRANSIT },
     transitNote:
-      'UPass included in student fees at Dal, SMU, MSVU, NSCAD, NSCC (~$170/term)',
+      'Halifax Transit UPass $177.93/yr (Sep–Apr), included in mandatory student fees at Dal, SMU, MSVU, NSCAD, NSCC — shown prorated over the 8-month academic year',
     groceriesMonthly: { value: 370, quality: { kind: 'estimate' }, sourceId: EST },
     utilitiesMonthly: { value: 150, quality: { kind: 'estimate' }, sourceId: EST },
     campuses: [
@@ -274,8 +274,9 @@ export const CITIES: City[] = [
       },
       vacancyPct: { value: 2.5, quality: { kind: 'official' }, sourceId: CMHC },
     },
-    transitMonthly: { value: 60, quality: { kind: 'official' }, sourceId: TRANSIT },
-    transitNote: 'Student monthly $60; U-Pass included for UNB/STU students',
+    transitMonthly: { value: 22.5, quality: { kind: 'official' }, sourceId: TRANSIT },
+    transitNote:
+      'U-Pass: UNB $180/yr (mandatory for international students, opt-in for domestic); STU $165/yr mandatory — shown prorated over the 8-month academic year',
     groceriesMonthly: { value: 340, quality: { kind: 'estimate' }, sourceId: EST },
     utilitiesMonthly: { value: 145, quality: { kind: 'estimate' }, sourceId: EST },
     campuses: [

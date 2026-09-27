@@ -39,7 +39,7 @@ export function BudgetTool({ initialCity }: { initialCity: string }) {
   const monthlyTotal = lines.reduce((sum, l) => sum + l.amount, 0)
   const eightMonth = monthlyTotal * 8 + campus.tuitionArts.value
   const twelveMonth = monthlyTotal * 12 + campus.tuitionArts.value
-  const annualNet = partTime * 12 + summer + family - twelveMonth
+  const annualNet = partTime * 8 + summer + family - twelveMonth
 
   return (
     <section className="panel" id="budget">
@@ -126,7 +126,7 @@ export function BudgetTool({ initialCity }: { initialCity: string }) {
             />
           </label>
           <label>
-            Part-time income — {fmt(partTime)}/mo
+            Part-time income (Sept–Apr) — {fmt(partTime)}/mo
             <input
               type="range"
               min="0"
@@ -195,8 +195,9 @@ export function BudgetTool({ initialCity }: { initialCity: string }) {
           </div>
           <p className="footnote">
             The gap between the 8-month and 12-month figures is why many
-            students sublet, take summer courses, or co-op. Figures marked
-            "Estimate" are modeled — adjust the sliders.
+            students sublet, take summer courses, or co-op. Income = 8 months
+            of part-time work + summer earnings + family/scholarships. Figures
+            marked "Estimate" are modeled — adjust the sliders.
           </p>
         </div>
       </div>
