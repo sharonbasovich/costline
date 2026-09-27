@@ -650,10 +650,18 @@ footer {
 }
 @media (width<=640px) {
   .badge-pop {
-    left:auto;
-    right:-.5rem;
+    position:fixed;
+    top:auto;
+    left:12px;
+    right:12px;
+    bottom:calc(env(safe-area-inset-bottom, 0px) + 12px);
+    width:auto;
+    max-width:none;
     transform:none;
-    width:min(15rem,78vw);
+    z-index:60;
+  }
+  .card:hover {
+    transform:none;
   }
   .topbar {
     flex-wrap:wrap;
