@@ -648,6 +648,20 @@ footer {
   padding:1.5rem 2rem 2.5rem;
   font-size:.82rem;
 }
+@media (width<=640px) {
+  .topbar {
+    flex-wrap:wrap;
+    padding:.6rem 1rem;
+  }
+  .topbar nav {
+    display:flex;
+    flex-wrap:wrap;
+  }
+  .topbar nav a {
+    margin-left:.7rem;
+    font-size:.85rem;
+  }
+}
 @media (width<=900px) {
   .hero {
     grid-template-columns:1fr;
